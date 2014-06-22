@@ -6,8 +6,50 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B109F345195530D0003A4BEA /* ent.h in Headers */ = {isa = PBXBuildFile; fileRef = B137D8F31955267C00D4E730 /* ent.h */; };
+		B109F3471955325F003A4BEA /* symbols.c in Sources */ = {isa = PBXBuildFile; fileRef = B109F3461955325F003A4BEA /* symbols.c */; };
+		B109F34C19553346003A4BEA /* utarray.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F34819553346003A4BEA /* utarray.h */; };
+		B109F34D19553346003A4BEA /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F34919553346003A4BEA /* uthash.h */; };
+		B109F34E19553346003A4BEA /* utlist.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F34A19553346003A4BEA /* utlist.h */; };
+		B109F34F19553346003A4BEA /* utstring.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F34B19553346003A4BEA /* utstring.h */; };
+		B109F354195546EB003A4BEA /* g_all_guis.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F350195546EB003A4BEA /* g_all_guis.h */; };
+		B109F355195546EB003A4BEA /* g_canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F351195546EB003A4BEA /* g_canvas.h */; };
+		B109F356195546EB003A4BEA /* m_imp.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F352195546EB003A4BEA /* m_imp.h */; };
+		B109F357195546EB003A4BEA /* s_stuff.h in Headers */ = {isa = PBXBuildFile; fileRef = B109F353195546EB003A4BEA /* s_stuff.h */; };
+		B109F359195551C1003A4BEA /* does.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B109F358195551C1003A4BEA /* does.cpp */; };
+		B109F35B19556E52003A4BEA /* on.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B109F35A19556E52003A4BEA /* on.cpp */; };
+		B12831F919565A6600646706 /* gameobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B12831F819565A6600646706 /* gameobject.cpp */; };
+		B12831FB195665B300646706 /* collider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B12831FA195665B300646706 /* collider.cpp */; };
+		B137D8EA1954AAD300D4E730 /* m_pd.h in Headers */ = {isa = PBXBuildFile; fileRef = B137D8E91954AAD300D4E730 /* m_pd.h */; };
+		B137D8ED1954AAE600D4E730 /* pdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = B137D8EB1954AAE600D4E730 /* pdutils.c */; };
+		B137D8EE1954AAE600D4E730 /* pdutils.h in Headers */ = {isa = PBXBuildFile; fileRef = B137D8EC1954AAE600D4E730 /* pdutils.h */; };
+		B137D8F01954BA8B00D4E730 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B137D8EF1954BA8B00D4E730 /* main.c */; };
+		B137D8F21954BA9400D4E730 /* ent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B137D8F11954BA9400D4E730 /* ent.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B137D8E21954AA9F00D4E730 /* libagent.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libagent.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B109F3461955325F003A4BEA /* symbols.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symbols.c; sourceTree = "<group>"; };
+		B109F34819553346003A4BEA /* utarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utarray.h; sourceTree = "<group>"; };
+		B109F34919553346003A4BEA /* uthash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uthash.h; sourceTree = "<group>"; };
+		B109F34A19553346003A4BEA /* utlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utlist.h; sourceTree = "<group>"; };
+		B109F34B19553346003A4BEA /* utstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utstring.h; sourceTree = "<group>"; };
+		B109F350195546EB003A4BEA /* g_all_guis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g_all_guis.h; sourceTree = "<group>"; };
+		B109F351195546EB003A4BEA /* g_canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g_canvas.h; sourceTree = "<group>"; };
+		B109F352195546EB003A4BEA /* m_imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_imp.h; sourceTree = "<group>"; };
+		B109F353195546EB003A4BEA /* s_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s_stuff.h; sourceTree = "<group>"; };
+		B109F358195551C1003A4BEA /* does.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = does.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		B109F35A19556E52003A4BEA /* on.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = on.cpp; sourceTree = "<group>"; };
+		B12831F819565A6600646706 /* gameobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gameobject.cpp; sourceTree = "<group>"; };
+		B12831FA195665B300646706 /* collider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = collider.cpp; sourceTree = "<group>"; };
+		B12831FC1956664A00646706 /* gameobject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gameobject.hpp; sourceTree = "<group>"; };
+		B137D8E21954AA9F00D4E730 /* agent.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = agent.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137D8E91954AAD300D4E730 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_pd.h; sourceTree = "<group>"; };
+		B137D8EB1954AAE600D4E730 /* pdutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdutils.c; sourceTree = "<group>"; };
+		B137D8EC1954AAE600D4E730 /* pdutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdutils.h; sourceTree = "<group>"; };
+		B137D8EF1954BA8B00D4E730 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B137D8F11954BA9400D4E730 /* ent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ent.cpp; sourceTree = "<group>"; };
+		B137D8F31955267C00D4E730 /* ent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +66,26 @@
 		B137D8D91954AA9F00D4E730 = {
 			isa = PBXGroup;
 			children = (
+				B137D8F31955267C00D4E730 /* ent.h */,
+				B12831FC1956664A00646706 /* gameobject.hpp */,
+				B137D8EF1954BA8B00D4E730 /* main.c */,
+				B137D8F11954BA9400D4E730 /* ent.cpp */,
+				B109F358195551C1003A4BEA /* does.cpp */,
+				B109F35A19556E52003A4BEA /* on.cpp */,
+				B12831F819565A6600646706 /* gameobject.cpp */,
+				B12831FA195665B300646706 /* collider.cpp */,
+				B109F3461955325F003A4BEA /* symbols.c */,
+				B137D8E91954AAD300D4E730 /* m_pd.h */,
+				B109F350195546EB003A4BEA /* g_all_guis.h */,
+				B109F351195546EB003A4BEA /* g_canvas.h */,
+				B109F352195546EB003A4BEA /* m_imp.h */,
+				B109F353195546EB003A4BEA /* s_stuff.h */,
+				B137D8EB1954AAE600D4E730 /* pdutils.c */,
+				B137D8EC1954AAE600D4E730 /* pdutils.h */,
+				B109F34819553346003A4BEA /* utarray.h */,
+				B109F34919553346003A4BEA /* uthash.h */,
+				B109F34A19553346003A4BEA /* utlist.h */,
+				B109F34B19553346003A4BEA /* utstring.h */,
 				B137D8E31954AA9F00D4E730 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -31,7 +93,7 @@
 		B137D8E31954AA9F00D4E730 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B137D8E21954AA9F00D4E730 /* libagent.dylib */,
+				B137D8E21954AA9F00D4E730 /* agent.pd_darwin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -43,15 +105,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B109F354195546EB003A4BEA /* g_all_guis.h in Headers */,
+				B109F34F19553346003A4BEA /* utstring.h in Headers */,
+				B109F357195546EB003A4BEA /* s_stuff.h in Headers */,
+				B109F345195530D0003A4BEA /* ent.h in Headers */,
+				B109F356195546EB003A4BEA /* m_imp.h in Headers */,
+				B137D8EE1954AAE600D4E730 /* pdutils.h in Headers */,
+				B109F355195546EB003A4BEA /* g_canvas.h in Headers */,
+				B109F34D19553346003A4BEA /* uthash.h in Headers */,
+				B137D8EA1954AAD300D4E730 /* m_pd.h in Headers */,
+				B109F34C19553346003A4BEA /* utarray.h in Headers */,
+				B109F34E19553346003A4BEA /* utlist.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B137D8E11954AA9F00D4E730 /* agent */ = {
+		B137D8E11954AA9F00D4E730 /* ent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B137D8E61954AA9F00D4E730 /* Build configuration list for PBXNativeTarget "agent" */;
+			buildConfigurationList = B137D8E61954AA9F00D4E730 /* Build configuration list for PBXNativeTarget "ent" */;
 			buildPhases = (
 				B137D8DE1954AA9F00D4E730 /* Sources */,
 				B137D8DF1954AA9F00D4E730 /* Frameworks */,
@@ -61,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = agent;
+			name = ent;
 			productName = agent;
-			productReference = B137D8E21954AA9F00D4E730 /* libagent.dylib */;
+			productReference = B137D8E21954AA9F00D4E730 /* agent.pd_darwin */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -87,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B137D8E11954AA9F00D4E730 /* agent */,
+				B137D8E11954AA9F00D4E730 /* ent */,
 			);
 		};
 /* End PBXProject section */
@@ -97,6 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B109F359195551C1003A4BEA /* does.cpp in Sources */,
+				B12831F919565A6600646706 /* gameobject.cpp in Sources */,
+				B12831FB195665B300646706 /* collider.cpp in Sources */,
+				B137D8F21954BA9400D4E730 /* ent.cpp in Sources */,
+				B109F35B19556E52003A4BEA /* on.cpp in Sources */,
+				B137D8F01954BA8B00D4E730 /* main.c in Sources */,
+				B137D8ED1954AAE600D4E730 /* pdutils.c in Sources */,
+				B109F3471955325F003A4BEA /* symbols.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -136,7 +218,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -145,6 +227,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -169,6 +252,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -176,7 +260,13 @@
 		B137D8E71954AA9F00D4E730 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_EXTENSION = pd_darwin;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -184,7 +274,12 @@
 		B137D8E81954AA9F00D4E730 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_EXTENSION = pd_darwin;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -201,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B137D8E61954AA9F00D4E730 /* Build configuration list for PBXNativeTarget "agent" */ = {
+		B137D8E61954AA9F00D4E730 /* Build configuration list for PBXNativeTarget "ent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B137D8E71954AA9F00D4E730 /* Debug */,
 				B137D8E81954AA9F00D4E730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
