@@ -72,6 +72,17 @@ t_symbol
 //*s_validate = NULL,
 *s_will_render_object = NULL;
 
+t_symbol *s_gameobject = NULL,
+    *s_instantiate = NULL,
+    *s_localpos = NULL,
+    *s_localrot = NULL,
+    *s_localscale = NULL,
+    *s_globalpos = NULL,
+    *s_globalrot = NULL,
+    *s_globallossyscale = NULL,
+    *s_localmtx = NULL,
+    *s_globalmtx = NULL;
+
 void setup_symbols(void) {
     s_on = gensym("on");
     s_awake = gensym("awake");
@@ -123,4 +134,14 @@ void setup_symbols(void) {
     s_trigger_stay_2d = gensym("trigger-stay-2d");
     s_will_render_object = gensym("will-render-object");
     
+    s_gameobject = gensym("gameobject");
+    s_instantiate = gensym("instantiate");
+    s_localpos = gensym("local-pos");
+    s_localrot = gensym("local-rot");
+    s_localscale = gensym("local-scale");
+    s_globalpos = gensym("global-pos");
+    s_globalrot = gensym("global-rot");
+    s_globallossyscale = gensym("global-lossy-scale");
+    s_localmtx = gensym("local-mtx");
+    s_globalmtx = gensym("global-mtx");
 }

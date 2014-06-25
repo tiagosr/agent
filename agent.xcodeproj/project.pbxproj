@@ -43,6 +43,7 @@
 		B12831F819565A6600646706 /* gameobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gameobject.cpp; sourceTree = "<group>"; };
 		B12831FA195665B300646706 /* collider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = collider.cpp; sourceTree = "<group>"; };
 		B12831FC1956664A00646706 /* gameobject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gameobject.hpp; sourceTree = "<group>"; };
+		B12831FD1959CE1100646706 /* quaternion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quaternion.hpp; sourceTree = "<group>"; };
 		B137D8E21954AA9F00D4E730 /* agent.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = agent.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
 		B137D8E91954AAD300D4E730 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_pd.h; sourceTree = "<group>"; };
 		B137D8EB1954AAE600D4E730 /* pdutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdutils.c; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 				B109F358195551C1003A4BEA /* does.cpp */,
 				B109F35A19556E52003A4BEA /* on.cpp */,
 				B12831F819565A6600646706 /* gameobject.cpp */,
+				B12831FD1959CE1100646706 /* quaternion.hpp */,
 				B12831FA195665B300646706 /* collider.cpp */,
 				B109F3461955325F003A4BEA /* symbols.c */,
 				B137D8E91954AAD300D4E730 /* m_pd.h */,

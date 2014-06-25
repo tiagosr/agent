@@ -10,14 +10,15 @@
 #define agent_gameobject_h
 
 #include <list>
+#include <vector>
 
-struct _t_gameobject {
+struct cpp_gameobject {
     t_ent *entity;
-    std::list<t_symbol *> tags;
+    std::vector<t_symbol *> tags;
     t_symbol *name;
     t_float x, y, z;
     t_float sx, sy, sz;
-    t_float qx, qy, qz, qw;
+    t_float qw, qx, qy, qz;
     bool enabled;
 };
 

@@ -120,6 +120,18 @@ extern t_symbol
 *s_get_ent,
 *s_get_tag,
 *s_get_name;
+    
+extern t_symbol
+    *s_gameobject,
+    *s_instantiate,
+    *s_localpos,
+    *s_localrot,
+    *s_localscale,
+    *s_globalpos,
+    *s_globalrot,
+    *s_globallossyscale,
+    *s_localmtx,
+    *s_globalmtx;
 
 void does_add_on(t_does *does, t_on *on, t_symbol *sym);
 void does_remove_on(t_does *does, t_on *on);
